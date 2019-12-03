@@ -19,7 +19,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <ScrollView
             android:id="@+id/scroll"
             android:layout_width="match_parent"
@@ -36,7 +35,6 @@
                 android:text="@string/description"
                 android:textColor="#000"
                 android:textSize="50sp" />
-
         </ScrollView>
 
         <ImageView
@@ -62,16 +60,12 @@
                 android:id="@+id/btnPos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:text="Ok"
                 android:textSize="45.7sp"
                 android:textAllCaps="false"
-
                 android:onClick="home"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-
-                />
+                app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@+id/btnNeg"
@@ -82,9 +76,7 @@
                 android:textSize="45.7sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/btnPos"
-
-                />
+                app:layout_constraintStart_toEndOf="@+id/btnPos"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
